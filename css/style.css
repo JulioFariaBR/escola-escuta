@@ -6,5 +6,7 @@
     --walnut-brown: #5e503fff;
 }
 
-
+.cab {
+    background: var(--white-smoke);
+}
 
