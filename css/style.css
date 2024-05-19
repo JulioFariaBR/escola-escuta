@@ -10,3 +10,8 @@
     background: var(--white-smoke);
 }
 
+.cab__img {
+    width: 500px;
+    height: 500px;
+}
+
