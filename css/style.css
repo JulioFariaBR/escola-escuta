@@ -17,6 +17,10 @@ body {
     height: 25vh;
 }
 
+.cab__sectA--img {
+    height: 20vh;
+}
+
 .cab__sectB--h1 {
     font-family: "Oswald", sans-serif;
     font-size: 72px;
