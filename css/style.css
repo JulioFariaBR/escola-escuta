@@ -17,8 +17,12 @@ body {
     height: 25vh;
 }
 
+.cab__sectA {
+    width: 15%;
+}
+
 .cab__sectA--img {
-    height: 20vh;
+    height: 15vh;
 }
 
 .cab__sectB--h1 {
