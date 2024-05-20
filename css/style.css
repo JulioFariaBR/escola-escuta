@@ -22,6 +22,12 @@ body {
 
 .cab__sectA {
     width: 15%;
+    display: flex;
+}
+
+.cab__sectB {
+    width: 15%;
+    display: flex;
 }
 
 .cab__sectA--img {
