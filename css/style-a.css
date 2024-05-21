@@ -76,4 +76,5 @@ body {
 
 .prin__section--fieldset {
     display:  flex;
+    width: 80%;
 }
