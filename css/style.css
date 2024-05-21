@@ -78,6 +78,7 @@ body {
 }
 
 .prin__sect--h1 {
+    font-family: "Roboto Flex", sans-serif;  
     margin: 20px;
     font-size: 61px;
     font-weight: 600;
