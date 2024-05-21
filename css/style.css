@@ -85,3 +85,11 @@ body {
     font-weight: 600;
     color: #6B434B;
 }
+
+.prin__sect--a {
+    font-family: "Oswald", sans-serif;
+    background: #ABFBAB;
+    border-radius: 30px;
+    padding: 10px;
+
+}
