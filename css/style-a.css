@@ -64,6 +64,10 @@ body {
     border: none;
 }
 
+.prin__section--button:hover {
+    text-decoration: underline;
+}
+
 .prin__section--h1{
     text-align: center;
     margin: 20px;
