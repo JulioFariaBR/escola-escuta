@@ -98,3 +98,14 @@ body {
     font-weight: 300;
     color: #6B434B;
 }
+
+.rod {
+    height: 60vh;
+    display: flex;
+}
+
+.rod__sect {
+    background: #7D515A;
+    border-radius: 20px;
+    height: 30vh;
+}
