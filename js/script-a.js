@@ -41,7 +41,7 @@ function cadDados(perguntas) {
         if (inputname.value != '' && inputmail.value != '') {
             require = true;
             dados.nome = inputname.value;
-            email.nome = inputmail.value;
+            dados.email = inputmail.value;
         } else if (inputname.value == '' && inputmail.value == '') {
             require = false;
         }
