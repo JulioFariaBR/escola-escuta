@@ -1,0 +1,24 @@
+.custom-checkbox input,
+.custom-radio input{
+  display: none;
+}
+
+.custom-radio input + label:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+  }
+  
+  .custom-radio input:checked + label:before {
+    background-color: white;
+    box-sizing: border-box;
+    border: 5px solid #6B434B;
+    padding: 4px;
+  }
