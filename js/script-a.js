@@ -59,4 +59,5 @@ function classificacaoDaMensagem(perg) {
         }
     })
     require = true;
+    proximaQuestão = 4;
 }
