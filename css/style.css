@@ -56,3 +56,10 @@ body {
     text-align: center;
     color: #F5FBEA;
 }
+
+.prin__sect {
+    background: #ABFBAB;
+    width: 80%;
+    height: 60vh;
+    border-radius: 50px;
+}
