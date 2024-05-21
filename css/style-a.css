@@ -91,7 +91,7 @@ body {
 }
 
 .input__text {
-    border-radius: 20px;
+    border-radius: 12px;
     font-size: 25px;
     background: transparent;
     border: #32A287 2px solid;
