@@ -29,6 +29,10 @@
     background-position: center;
 }
 
+.prin {
+    display: flex;
+}
+
 .prin__section {
     background: #abfbaba3;
     width: 80%;
