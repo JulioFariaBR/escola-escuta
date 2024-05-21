@@ -26,6 +26,6 @@ function escreverQuestao() {
         canva.innerHTML = `${questoes[proximaQuestão]}`
         require = false
     } else {
-        
+        alert('Marque alguma opção...')
     }
 }
