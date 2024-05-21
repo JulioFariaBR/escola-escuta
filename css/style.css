@@ -99,6 +99,7 @@ body {
     font-size: 38px;
     font-weight: 300;
     color: #6B434B;
+    z-index: 2;
 }
 
 .prin__sect--a:hover {
