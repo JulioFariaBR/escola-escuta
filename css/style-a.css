@@ -89,3 +89,9 @@ body {
     font-weight: 600;
     color: #6B434B;
 }
+
+.input__text {
+    border-radius: 20px;
+    font-size: 25px;
+    background: transparent;
+}
