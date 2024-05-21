@@ -55,7 +55,8 @@ function classificacaoDaMensagem(perg) {
     let ordem = ['Dúvida', 'Reclamação', 'Ideia', 'Desabafo', 'Outros']
     ordem.forEach((e, i) => {
         if (perg == i) {
-            console.log(e, i)
+            dados.tipo = e;
         }
     })
+    require = true;
 }
