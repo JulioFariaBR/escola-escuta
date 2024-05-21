@@ -42,6 +42,7 @@ function cadDados(perguntas) {
             require = true;
             dados.nome = inputname.value;
             dados.email = inputmail.value;
+            proximaQuestão = 3;
         } else if (inputname.value == '' && inputmail.value == '') {
             require = false;
         }
