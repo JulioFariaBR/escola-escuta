@@ -130,8 +130,13 @@ body {
     height: 90%;
 }
 
+.rod__divB {
+    display: flex;
+}
+
 .rod__divB--p {
     font-family: "Oswald", sans-serif;
-    font-size: 46px;
+    font-size: 34px;
     text-align: center;
+    
 }
