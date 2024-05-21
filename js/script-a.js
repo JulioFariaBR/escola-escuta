@@ -40,8 +40,8 @@ function cadDados(perguntas) {
     if (perguntas == 1) {
         if (inputname.value != '' && inputmail.value != '') {
             require = true;
-            dados.push(inputname.value);
-            dados.push(inputmail.value);
+            dados.nome = inputname.value;
+            email.nome = inputmail.value;
         } else if (inputname.value == '' && inputmail.value == '') {
             require = false;
         }
