@@ -97,3 +97,11 @@ body {
     border: #32A287 2px solid;
     color: #6B434B;
 }
+
+.newdivinputtype {
+    flex-direction: column;
+}
+
+.newinputtype {
+    margin: 10px;
+}
