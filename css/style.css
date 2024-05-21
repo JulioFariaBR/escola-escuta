@@ -132,6 +132,8 @@ body {
 
 .rod__divB {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rod__divB--p {
@@ -140,4 +142,5 @@ body {
     text-align: center;
     color: #ffffff;
     font-weight: 200;
+    padding: 10px;
 }
