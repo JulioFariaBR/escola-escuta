@@ -91,5 +91,6 @@ body {
     background: #ABFBAB;
     border-radius: 30px;
     padding: 10px;
-
+    text-align: center;
+    text-decoration: none;
 }
