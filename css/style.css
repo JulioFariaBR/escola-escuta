@@ -88,6 +88,8 @@ body {
 }
 
 .prin__sect--a {
+    position: relative;
+    top: -15vh;
     font-family: "Oswald", sans-serif;
     background: #ABFBAB;
     border-radius: 30px;
