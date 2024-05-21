@@ -27,6 +27,7 @@ body {
     background-image: url(../img/assets-1.png);
     background-repeat: no-repeat;
     background-position: center;
+    font-family: "Oswald", sans-serif;
 }
 
 .prin {
@@ -50,4 +51,24 @@ body {
 .prin__img {
     width: 5%;
     margin: 10px;
+}
+
+.prin__bnt {
+    background: #ABFBAB;
+    border-radius: 30px;
+    padding: 23px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 38px;
+    font-weight: 300;
+    color: #6B434B;
+}
+
+.prin__section {
+    text-align: center;
+    margin: 20px;
+    font-size: 54px;
+    font-weight: 600;
+    color: #6B434B;
+    margin-top: -35px;
 }
