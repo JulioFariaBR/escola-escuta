@@ -115,9 +115,11 @@ body {
 
 .rod__divA {
     background: #6B434B;
-    height: 70%;
+    height: 75%;
     border-radius: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rod__divA--imga {
