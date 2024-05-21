@@ -58,8 +58,8 @@ body {
 }
 
 .prin__sect {
-    position: sticky;
-    top: 20vh;
+    position: relative;
+    top: -5vh;
     background: #ABFBAB;
     width: 80%;
     height: 60vh;
