@@ -76,3 +76,10 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.prin__sect--h1 {
+    margin: 20px;
+    font-size: 61px;
+    font-weight: 600;
+    font-style: italic;
+}
