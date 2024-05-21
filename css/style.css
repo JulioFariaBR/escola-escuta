@@ -84,12 +84,12 @@ body {
     font-size: 54px;
     font-weight: 600;
     color: #6B434B;
-    margin-top: 56px;
+    margin-top: -35px;
 }
 
 .prin__sect--a {
     position: relative;
-    top: -32vh;
+    top: -36vh;
     font-family: "Oswald", sans-serif;
     background: #ABFBAB;
     border-radius: 30px;
