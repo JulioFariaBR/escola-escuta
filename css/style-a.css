@@ -40,7 +40,7 @@ body {
     background: #abfbaba3;
     width: 60%;
     height: 80vh;
-    border-radius: 0px 0px 0px 50px;
+    border-radius: 0px 0px 50px 50px;
     z-index: -1;
     display: flex;
     align-items: center;
@@ -68,8 +68,12 @@ body {
 .prin__section--h1{
     text-align: center;
     margin: 20px;
-    font-size: 54px;
+    font-size: 30px;
     font-weight: 600;
     color: #6B434B;
     margin-top: -35px;
+}
+
+.prin__section--fieldset {
+    display:  flex;
 }
