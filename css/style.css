@@ -129,3 +129,8 @@ body {
 .rod__divA--imgb {
     height: 90%;
 }
+
+.rod__divB--p {
+    font-size: 46px;
+    text-align: center;
+}
