@@ -116,8 +116,14 @@ body {
 .rod__divA {
     background: #6B434B;
     height: 70%;
+    border-radius: 20px;
+    display: flex;
 }
 
-.rod__divB {
-    
+.rod__divA--imga {
+    height: 90%;
+}
+
+.rod__divA--imgb {
+    height: 90%;
 }
