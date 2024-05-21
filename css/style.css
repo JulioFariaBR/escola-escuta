@@ -57,6 +57,11 @@ body {
     color: #F5FBEA;
 }
 
+.prin {
+    display: flex;
+    flex-direction: column;
+}
+
 .prin__sect {
     position: relative;
     top: -15vh;
