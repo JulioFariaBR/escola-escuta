@@ -1,3 +1,4 @@
+let require = false;
 let proximaQuestão = 1;
 const canva = document.querySelector('#canva');
 
@@ -16,9 +17,15 @@ function querSeIndentificar(idf) {
     } else if (idf == 0) {
         proximaQuestão = '3';
     }
+    require = true;
     console.log(proximaQuestão);
 }
 
 function escreverQuestao() {
-    canva.innerHTML = `${questoes[proximaQuestão]}`
+    if (require == true) {
+        canva.innerHTML = `${questoes[proximaQuestão]}`
+        require = false
+    } else {
+        
+    }
 }
