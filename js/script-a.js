@@ -29,7 +29,7 @@ function querSeIndentificar(idf) {
 
 function escreverQuestao() {
     if (require == true) {
-        canva.innerHTML = `${questoes[proximaQuestão]}`
+        canva.innerHTML = `${questoes[(proximaQuestão-1)]}`
         require = false
     } else {
         alert('Marque alguma opção ou escreva algo...')
