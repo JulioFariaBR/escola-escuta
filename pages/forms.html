@@ -11,8 +11,8 @@
     <main class="prin">
         <button onclick="voltarParaHome()"> &LeftArrow; Home</button>
         <section class="prin__section" id="canva">
-            <h1>Você gostaria de se indentificar?</h1>
-            <fieldset>
+            <h1 class="prin__section--h1">Você gostaria de se indentificar?</h1>
+            <fieldset class="prin__section--fieldset">
                 <div class="custom-radio">
                     <input id="radio-1" name="question" value="1" type="radio" onclick="querSeIndentificar(1)">
                     <label for="radio-1">Sim</label>
@@ -23,7 +23,7 @@
                     <label for="radio-2">Não</label>
                   </div>
             </fieldset>
-            <button onclick="escreverQuestao()">Próximo.</button>
+            <button onclick="escreverQuestao()" class="prin__section--button">Próximo.</button>
         </section>
         <img src="../img/assets-4.png" alt="Logo: CEVA">
     </main>
