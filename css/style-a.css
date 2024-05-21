@@ -31,13 +31,15 @@ body {
 
 .prin {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .prin__section {
     background: #abfbaba3;
-    width: 80%;
+    width: 60%;
     height: 80vh;
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px 0px 50px;
     z-index: -1;
     display: flex;
     align-items: center;
