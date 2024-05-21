@@ -1,5 +1,5 @@
 let require = false;
-let proximaQuestão = 1;
+let proximaQuestao = 1;
 const canva = document.querySelector('#canva');
 const inputname = document.querySelector('#name');
 const inputmail = document.querySelector('#mail');
@@ -20,17 +20,17 @@ function voltarParaHome() {
 
 function querSeIndentificar(idf) {
     if (idf == 1) {
-        proximaQuestão = 2;
+        proximaQuestao = 2;
     } else if (idf == 0) {
-        proximaQuestão = 3;
+        proximaQuestao = 3;
     }
     require = true;
-    console.log(proximaQuestão);
+    console.log(proximaQuestao);
 }
 
 function escreverQuestao() {
     if (require == true) {
-        canva.innerHTML = `${questoes[(proximaQuestão-1)]}`
+        canva.innerHTML = `${questoes[(proximaQuestao-1)]}`
         require = false
     } else {
         alert('Marque alguma opção ou escreva algo...')
@@ -43,11 +43,11 @@ function cadDados(perguntas) {
             require = true;
             dados.nome = inputname.value;
             dados.email = inputmail.value;
-            proximaQuestão = 3;
+            proximaQuestao = 3;
         } else if (inputname.value == '' && inputmail.value == '') {
             require = false;
         }
-        proximaQuestão = 3;
+        proximaQuestao = 3;
     }
 }
 
@@ -59,5 +59,5 @@ function classificacaoDaMensagem(perg) {
         }
     })
     require = true;
-    proximaQuestão = 4;
+    proximaQuestao = 4;
 }
