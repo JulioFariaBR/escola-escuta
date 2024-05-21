@@ -71,10 +71,17 @@ body {
     font-size: 30px;
     font-weight: 600;
     color: #6B434B;
-    margin-top: -35px;
 }
 
 .prin__section--fieldset {
     display:  flex;
     width: 80%;
+}
+
+.label {
+    text-align: center;
+    margin: 16px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #6B434B;
 }
