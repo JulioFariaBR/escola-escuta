@@ -100,12 +100,14 @@ body {
 }
 
 .rod {
-    height: 60vh;
+    height: 80vh;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .rod__sect {
     background: #7D515A;
     border-radius: 20px;
-    height: 30vh;
+    height: 60vh;
 }
