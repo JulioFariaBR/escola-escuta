@@ -110,8 +110,14 @@ body {
     background: #7D515A;
     border-radius: 20px;
     height: 60vh;
+    width: 30%;
 }
 
 .rod__divA {
+    background: #6B434B;
     height: 70%;
+}
+
+.rod__divB {
+    
 }
