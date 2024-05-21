@@ -99,6 +99,10 @@ body {
     color: #6B434B;
 }
 
+.prin__sect--a:hover {
+    text-decoration: underline;
+}
+
 .rod {
     height: 80vh;
     display: flex;
