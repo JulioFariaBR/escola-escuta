@@ -11,7 +11,7 @@
     <main class="prin">
         <button onclick="voltarParaHome()" class="prin__bnt"> &LeftArrow; Home</button>
         <section class="prin__section" id="canva">
-            <div class="div__flex"><fieldset class="prin__section--fieldset fieldset__flex"><label for="mail" class="label">Nos escreva:</label><textarea name="" id="textarea" rows="5" cols="33" class="input__text"></textarea></fieldset><button onclick="cadDados(2); escreverQuestao();" class="prin__section--button">Enviar.</button></div>
+            <h1 class="prin__section--h1">Você gostaria de se indentificar?</h1><fieldset class="prin__section--fieldset"><div class="custom-radio"><input id="radio-1" name="question" value="1" type="radio" onclick="querSeIndentificar(1)"><label for="radio-1" class="label">Sim</label></div><div class="custom-radio"><input id="radio-2" name="question" value="0" type="radio" onclick="querSeIndentificar(0)"><label for="radio-2" class="label">Não</label></div></fieldset><button onclick="escreverQuestao()" class="prin__section--button">Próximo.</button>
         </section>
         <img src="../img/assets-6.png" alt="Logo: CEVA" class="prin__img">
     </main>
