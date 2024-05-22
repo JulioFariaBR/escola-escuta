@@ -3,7 +3,7 @@ let proximaQuestao = 1;
 const canva = document.querySelector('#canva');
 const inputname = document.querySelector('#name');
 const inputmail = document.querySelector('#mail');
-const inputtextarea = document.querySelector('#textarea')
+const inputtextarea = document.querySelector('#textarea');
 let dados = {
     nome: '',
     email: '',
