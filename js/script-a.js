@@ -1,9 +1,6 @@
 let require = false;
 let proximaQuestao = 1;
 const canva = document.querySelector('#canva');
-const inputname = document.querySelector('#name');
-const inputmail = document.querySelector('#mail');
-const inputtextarea = document.querySelector('#textarea');
 let dados = {
     nome: '',
     email: '',
@@ -42,22 +39,22 @@ function escreverQuestao() {
 
 function cadDados(perguntas) {
     if (perguntas == 1) {
-        if (inputname.value != '' && inputmail.value != '') {
+        if (document.querySelector('#name').value != '' && document.querySelector('#mail').value != '') {
             require = true;
-            dados.nome = inputname.value;
-            dados.email = inputmail.value;
+            dados.nome = document.querySelector('#name').value;
+            dados.email = document.querySelector('#mail').value;
             proximaQuestao = 3;
-        } else if (inputname.value == '' && inputmail.value == '') {
+        } else if (document.querySelector('#name').value == '' && document.querySelector('#mail').value == '') {
             require = false;
         }
         proximaQuestao = 3;
     }
     if (perguntas == 2) {
-        if (inputtextarea.value != '') {
+        if (document.querySelector('#textarea').value != '') {
             require = true;
-            dados.msn = inputtextarea.value;
+            dados.msn = document.querySelector('#textarea').value;
             proximaQuestao = 4;
-        } else if (inputtextarea.value == '') {
+        } else if (document.querySelector('#textarea').value == '') {
             require = false;
         }
         proximaQuestao = 4;
