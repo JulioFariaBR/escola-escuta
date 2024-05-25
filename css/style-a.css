@@ -56,14 +56,14 @@ body {
 
 .prin__section--button {
     background: #ABFBAB;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 23px;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
     font-weight: 300;
     color: #6B434B;
-    border: none;
+    border: 4px solid #32A287;
 }
 
 .prin__section--button:hover {
@@ -126,9 +126,9 @@ body {
     background: transparent;
     padding: 10px;
     font-size: 20px;
-    border: 4px solid #6B434B;
+    border: 4px solid #32A287;
     border-radius: 12px;
-    color: #6b434b;
+    color: #32A287;
     font-weight: 600;
     margin: 5px;
 }
