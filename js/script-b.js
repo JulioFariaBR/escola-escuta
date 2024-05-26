@@ -1,17 +1,12 @@
-const script_do_google = 'https://script.google.com/macros/s/AKfycbyJVIliOevidclzv3C4auzu0yofe0R8Wk3VjGjT65wqMgEhAsF1EO5UNFBemtSeBwSe/exec';
-const dados_do_formulario = {
-    nome: 'Anônimo',
-    email: 'Anônimo',
-    tipo: 'Teste',
-    msn: 'Mensagem sem criatidade',
-};
 
-function bancoDeDados() {
-    fetch(script_do_google, {method: 'POST', body: JSON.stringify(dados_do_formulario)})
-    .then(response => {
-        alert("OK")
+function bancoDeDados(dados) {
+    console.log(JSON.stringify(dados));
+    fetch('https://api.sheetmonkey.io/form/dpBmKDGqGB4AMBGQ8MHGep', {
+        method: 'post',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(dados)
     })
-    .catch(error =>
-        console.error(error)
-    )
 }
