@@ -7,7 +7,7 @@ const dados_do_formulario = {
 };
 
 function bancoDeDados() {
-    fetch(script_do_google, {method: 'POST', body: dados_do_formulario})
+    fetch(script_do_google, {method: 'POST', body: JSON.stringify(dados_do_formulario)})
     .then(response => {
         alert("OK")
     })
