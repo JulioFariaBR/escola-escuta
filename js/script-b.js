@@ -2,7 +2,8 @@
 function tratarDados() {
     if (dados.nome == '') {
         dados.nome = 'Anônimo';
-    } else if (dados.email == '') {
+    }
+    if (dados.email == '') {
         dados.email = 'Anônimo';
     }
 }
