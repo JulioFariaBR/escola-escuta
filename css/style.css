@@ -152,3 +152,11 @@ body {
     padding: 10px;
 }
 
+@media (max-width: 430px) {
+    .cab {
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../img/assets-8.png);
+    }
+}
