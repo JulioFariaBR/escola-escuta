@@ -34,6 +34,7 @@ body {
     border: #32A287 2px solid;
     color: #6B434B;
     margin: 10px;
+    padding: 5px;
 }
 
 .main__fieldset--label {
