@@ -37,3 +37,15 @@ body {
     color: #6B434B;
     margin: 10px;
 }
+
+.main__bnt {
+    background: #ABFBAB;
+    border-radius: 20px;
+    padding: 23px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    color: #32A287;
+    border: 4px solid #32A287;
+}
