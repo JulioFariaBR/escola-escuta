@@ -20,6 +20,7 @@ body {
 
 .main__fieldset {
     display: flex;
+    flex-direction: column;
 }
 
 .main__fieldset--input {
@@ -28,9 +29,11 @@ body {
     background: transparent;
     border: #32A287 2px solid;
     color: #6B434B;
+    margin: 10px;
 }
 
 .main__fieldset--label {
     font-size: 25px;
     color: #6B434B;
+    margin: 10px;
 }
