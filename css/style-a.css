@@ -145,5 +145,6 @@ body {
         margin: 5vh 5%;
         height: 90vh;
         background: url(../img/assets-9.png);
+        border-radius: 50px;
     }
 }
