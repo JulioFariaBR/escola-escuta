@@ -12,4 +12,5 @@ body {
     background-repeat: no-repeat;
     width: 80%;
     height: 80vh;
+    display: flex;
 }
