@@ -147,4 +147,12 @@ body {
         background: url(../img/assets-9.png);
         border-radius: 50px;
     }
+    .prin__section--fieldset {
+        flex-direction: column;
+    }
+
+    .input__text {
+        font-size: 35px;
+        width: 100%;
+    }
 }
