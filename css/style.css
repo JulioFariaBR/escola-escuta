@@ -154,7 +154,7 @@ body {
 
 @media (max-width: 430px) {
     .cab {
-        height: 70vh;
+        height: 60vh;
         justify-content: flex-start;
         flex-direction: column;
         align-items: center;
@@ -165,5 +165,8 @@ body {
     }
     .cab__sectA {
         margin-top: 3vh;
+    }
+    .prin__sect {
+        top: 5vh;
     }
 }
