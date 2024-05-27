@@ -1,3 +1,5 @@
+let condition
+
 
 const infos = [
     {
@@ -15,6 +17,7 @@ const infos = [
 ]
 
 function realizarLogin() {
+    condition == false
     infos.forEach((e) => {
         console.log(e, e.log, e.pin);
         if (condition == false) {
