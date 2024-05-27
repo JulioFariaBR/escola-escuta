@@ -154,9 +154,16 @@ body {
 
 @media (max-width: 430px) {
     .cab {
-        justify-content: space-evenly;
+        height: 70vh;
+        justify-content: flex-start;
         flex-direction: column;
         align-items: center;
         background-image: url(../img/assets-8.png);
+    }
+    .cab__sectB {
+        margin-top: 3vh;
+    }
+    .cab__sectA {
+        margin-top: 3vh;
     }
 }
