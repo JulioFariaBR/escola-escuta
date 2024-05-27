@@ -177,4 +177,8 @@ body {
         top: -13vh;
 
     }
+    .rod {
+        height: 130vh;
+        flex-direction: column;
+    }
 }
