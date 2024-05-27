@@ -15,6 +15,7 @@ const infos = [
 ]
 
 function realizarLogin() {
+    console.log(document.querySelector('#login').value, document.querySelector('#pass').value)
     infos.forEach((e) => {
         console.log(e, e.log, e.pin);
         if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
