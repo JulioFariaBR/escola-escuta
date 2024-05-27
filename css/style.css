@@ -168,5 +168,13 @@ body {
     }
     .prin__sect {
         top: 5vh;
+        height: 90vh;
+    }
+    .prin__sect--h1 {
+        font-size: 35px;
+    }
+    .prin__sect--a {
+        top: -13vh;
+
     }
 }
