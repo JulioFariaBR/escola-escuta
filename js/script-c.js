@@ -13,4 +13,5 @@ const infos = [
     },
 ]
 
-console.log(infos[1].log);
+document.querySelector('#login');
+document.querySelector('#pass');
