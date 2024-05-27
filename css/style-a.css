@@ -132,3 +132,9 @@ body {
     font-weight: 600;
     margin: 5px;
 }
+
+@media (max-width: 430px) {
+    .prin__bnt .prin__img {
+        display: none;
+    }
+}
