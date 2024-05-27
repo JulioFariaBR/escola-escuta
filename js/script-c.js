@@ -13,5 +13,12 @@ const infos = [
     },
 ]
 
-document.querySelector('#login');
-document.querySelector('#pass');
+function realizarLogin() {
+    infos.forEach((e) => {
+        if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
+            alert('Seu usuário ou sua senha estão errados.');
+        } else {
+            
+        }
+    })
+}
