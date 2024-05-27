@@ -22,13 +22,8 @@ function realizarLogin() {
         if (condition == false) {
             console.log(e, e.log, e.pin, e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value);
             if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
-                condition = true
+                // Constução de Tabelas.
             }
         }
     })
-    if (condition == true) {
-        localStorage.setItem("User", true);
-    } else if (condition == false) {
-        localStorage.setItem("User", false);
-    }
 }
