@@ -17,3 +17,20 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.main__fieldset {
+    display: flex;
+}
+
+.main__fieldset--input {
+    border-radius: 12px;
+    font-size: 25px;
+    background: transparent;
+    border: #32A287 2px solid;
+    color: #6B434B;
+}
+
+.main__fieldset--label {
+    font-size: 25px;
+    color: #6B434B;
+}
