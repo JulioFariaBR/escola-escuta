@@ -18,9 +18,14 @@ function realizarLogin() {
     infos.forEach((e) => {
         console.log(e, e.log, e.pin);
         if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
-            alert('Seu usuário ou sua senha estão errados.');
+            condition = true
         } else {
-            localStorage.setItem("User", true);
+            condition = false
         }
     })
+    if (condition == true) {
+        localStorage.setItem("User", true);
+    } else if (condition == false) {
+        localStorage.setItem("User", false);
+    }
 }
