@@ -19,9 +19,9 @@ const infos = [
 function realizarLogin() {
     condition == false
     infos.forEach((e) => {
-        console.log(e, e.log, e.pin);
         if (condition == false) {
             if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
+                console.log(e, e.log, e.pin);
                 condition = true
             }
         }
