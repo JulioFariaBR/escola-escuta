@@ -181,4 +181,7 @@ body {
         height: 130vh;
         flex-direction: column;
     }
+    .rod__sect {
+        width: 70%;
+    }
 }
