@@ -18,7 +18,7 @@ function realizarLogin() {
         if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
             alert('Seu usuário ou sua senha estão errados.');
         } else {
-            
+            localStorage.setItem("User", true);
         }
     })
 }
