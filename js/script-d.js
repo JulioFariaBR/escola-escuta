@@ -11,6 +11,10 @@ function extraindodados(dados) {
         tipoBusca.push(elemento.c[2].v)
         msnBusca.push(elemento.c[3].v)
     })
+    nomeBusca.shift();
+    emailBusca.shift();
+    tipoBusca.shift();
+    msnBusca.shift();
     console.log(nomeBusca, emailBusca, tipoBusca, msnBusca);
 }
 async function busca() {
