@@ -57,7 +57,7 @@ body {
 }
 
 table {
-    font-size: 17px;
+    font-size: 15px;
     color: #6B434B;
 }
 
@@ -71,11 +71,11 @@ th, td {
 }
 
 .open {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
 }
 
 .open:hover {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
 }
