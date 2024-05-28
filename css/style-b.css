@@ -95,3 +95,11 @@ th, td {
 .dflex {
     display: flex;
 }
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #6B434B;
+}
