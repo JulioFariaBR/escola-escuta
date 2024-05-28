@@ -54,3 +54,9 @@ body {
     color: #32A287;
     border: 2px solid #32A287;
 }
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
