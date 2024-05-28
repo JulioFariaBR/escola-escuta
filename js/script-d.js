@@ -16,6 +16,7 @@ function extraindodados(dados) {
     tipoBusca.shift();
     msnBusca.shift();
     console.log(nomeBusca, emailBusca, tipoBusca, msnBusca);
+    construtor();
 }
 async function busca() {
     let url = `https://docs.google.com/spreadsheets/d/1_SjV9CPgsXzq5WlS0eZfSTEckFP9HcsE5l502hgegVo/gviz/tq?tqx=out:json`
