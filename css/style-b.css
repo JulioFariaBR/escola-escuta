@@ -86,6 +86,7 @@ th, td {
     top: 10vh;
     left: 10%;
     z-index: 1;
+    background: #abfbab;
 }
 
 .dnone {
