@@ -60,8 +60,8 @@ table {
 }
 
 th, td {
-  border: 1px solid rgb(160 160 160);
-  padding: 8px 10px;
+    border: #32A287 2px solid;
+    padding: 8px 10px;
 }
 
 .titulos {
