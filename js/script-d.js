@@ -29,7 +29,7 @@ async function busca() {
 
 function construtor() {
     nomeBusca.forEach((e, i)=> {
-        document.querySelector('#canva-table').innerHTML = `${document.querySelector('#canva-table').innerHTML} <tr><th scope="row">${e}</th><th>${emailBusca[i]}</th><th>${tipoBusca[i]}</th><th>${msnBusca[i]}</th><th onclick="openMsn(${i})" class="open">  . . .  </th></tr>`
+        document.querySelector('#canva-table').innerHTML = `${document.querySelector('#canva-table').innerHTML} <tr><th scope="row">${e}</th><th>${emailBusca[i]}</th><th>${tipoBusca[i]}</th><th>  . . .  </th><th onclick="openMsn(${i})" class="open">Abrir Mensagem</th></tr>`
     })
 }
 
