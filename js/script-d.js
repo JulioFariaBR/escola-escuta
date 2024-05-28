@@ -6,10 +6,10 @@ let bandeiraBusca = [];
 
 function extraindodados(dados) {
     dados.forEach((elemento, _index) => {
-        nomeBusca.push(elemento.c[0])
-        emailBusca.push(elemento.c[1])
-        tipoBusca.push(elemento.c[2])
-        msnBusca.push(elemento.c[2])
+        nomeBusca.push(elemento.c[0].v)
+        emailBusca.push(elemento.c[1].v)
+        tipoBusca.push(elemento.c[2].v)
+        msnBusca.push(elemento.c[3].v)
     })
     console.log(nomeBusca, emailBusca, tipoBusca, msnBusca);
 }
