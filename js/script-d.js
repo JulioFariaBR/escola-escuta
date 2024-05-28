@@ -24,5 +24,4 @@ async function busca() {
         .then(res => res.text())
         .then(text => JSON.parse(text.substr(47).slice(0, -2)))
     extraindodados(data.table.rows);
-    console.log(data.table.rows);
 }
