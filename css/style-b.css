@@ -59,6 +59,7 @@ body {
 table {
     font-size: 15px;
     color: #6B434B;
+    max-width: 92%;
 }
 
 th, td {
@@ -76,6 +77,6 @@ th, td {
 }
 
 .open:hover {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
 }
