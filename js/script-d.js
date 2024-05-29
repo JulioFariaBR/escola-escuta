@@ -34,5 +34,10 @@ function construtor() {
 }
 
 function openMsn(id) {
-    console.log(id)
+    document.querySelector('canva-msn').className = 'main dmsn';
+    document.querySelector('canva-msn').innerHTML = `<button class="main__bnt" onclick="closeMsn()">X</button><h1>Detalhes da mensagem:</h1><table><thead><tr class="titulos"><th scope="col">Nome: ${nomeBusca[id]}</th><th scope="col">E-mail: ${emailBusca[id]}</th><th scope="col">Tipo: ${tipoBusca[id]}</th></tr></thead><tbody><tr><th scope="row" colspan="3">${msnBusca[id]}</th></tr></tbody></table>`
+}
+
+function closeMsn() {
+    document.querySelector('canva-msn').className = 'main dnone';
 }
