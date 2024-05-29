@@ -13,7 +13,6 @@ body {
 .main {
     background: url(../img/assets-7.png);
     background-position: center;
-    background-repeat: no-repeat;
     min-width: 80%;
     height: 80vh;
     display: flex;
