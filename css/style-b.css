@@ -109,9 +109,7 @@ h1 {
     background-position: center;
     width: 80%;
     min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    margin: 10vh 10%;
+    padding-top: 20px;
     border-radius: 50px;
 }
