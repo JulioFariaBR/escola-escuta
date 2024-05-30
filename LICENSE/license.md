@@ -1,6 +1,8 @@
----
 
-**LICENÇA DE USO DE SOFTWARE PROPRIETÁRIO**
+
+## **LICENÇA DE USO DE SOFTWARE PROPRIETÁRIO**
+
+---
 
 **Detentor dos Direitos:**
 Julio Cesar Siqueira Faria
