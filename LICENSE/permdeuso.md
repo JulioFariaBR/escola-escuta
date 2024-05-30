@@ -1,6 +1,7 @@
----
 
-**PERMISSÃO DE USO DE INFORMAÇÕES**
+## **PERMISSÃO DE USO DE INFORMAÇÕES**
+
+---
 
 Eu, Julio Cesar Siqueira Faria, detentor dos direitos do site "Escola Escuta - Colégio Estadual Vila Alta", concedo permissão ao Colégio Estadual Vila Alta para utilizar as informações recebidas através do referido site.
 
