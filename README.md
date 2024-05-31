@@ -10,6 +10,6 @@
  - Autor: Julio Cesar Siqueira Faria
 
  - Suporte Técnico:
- - Desenvolvedor: julio.cesar.faria2021@gmail.com
- - Responsável: eagle.oficial000@gmail.com
- - Suporte: escolaescuta000@gmail.com
+   - Desenvolvedor: julio.cesar.faria2021@gmail.com
+   - Responsável: eagle.oficial000@gmail.com
+   - Suporte: escolaescuta000@gmail.com
