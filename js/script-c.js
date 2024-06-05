@@ -3,16 +3,24 @@ let condition
 
 const infos = [
     {
-        log: 'ADM001',
-        pin: 'ADMJulioFaria001#',
+        log: 'ADM1JCSF',
+        pin: 'ADMJulioF1#',
     },
     {
-        log: 'ADM002',
-        pin: 'ADMLaraAmorim002#',
+        log: 'ADM2LM',
+        pin: 'ADMLuciaM2#',
     },
     {
-        log: 'ADM003',
-        pin: 'ADMLuciaMaldonado003#',
+        log: 'ADM3LA',
+        pin: 'ADMLeticiaA3#',
+    },
+    {
+        log: 'ADM4CRSA',
+        pin: 'ADMCleodeteA4#',
+    },
+    {
+        log: 'ADM5ACF',
+        pin: 'ADMAnaF5#',
     },
 ]
 
