@@ -4,23 +4,23 @@ let condition
 const infos = [
     {
         log: 'ADM1JCSF',
-        pin: 'ADMJulioF1#',
+        pin: 'ADMJulioF@1',
     },
     {
         log: 'ADM2LM',
-        pin: 'ADMLuciaM2#',
+        pin: 'ADMLuciaM@2',
     },
     {
         log: 'ADM3LA',
-        pin: 'ADMLeticiaA3#',
+        pin: 'ADMLeticiaA@3',
     },
     {
         log: 'ADM4CRSA',
-        pin: 'ADMCleodeteA4#',
+        pin: 'ADMCleodeteA@4',
     },
     {
         log: 'ADM5ACF',
-        pin: 'ADMAnaF5#',
+        pin: 'ADMAnaF@5',
     },
 ]
 
