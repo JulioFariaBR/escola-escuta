@@ -206,7 +206,7 @@ body {
 
 @media (max-width: 430px) {
     body {
-        background-repeat: no-repeat;
+        background-repeat: repeat;
     }
     .cab {
         height: 53vh;
@@ -227,7 +227,8 @@ body {
     }
     .prin__sectB {
         top: 5vh;
-        height: 55vh;
+        height: 134vh;
+        flex-direction: column;
     }
     .prin__sect--h1 {
         font-size: 38px;
@@ -237,7 +238,7 @@ body {
         font-size: 30px;
     }
     .rod {
-        height: 130vh;
+        height: 150vh;
         flex-direction: column;
     }
     .rod__sect {
