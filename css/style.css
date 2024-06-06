@@ -177,6 +177,10 @@ body {
     color: #6B434B;
 }
 
+.prin__sect--a2:hover {
+    text-decoration: underline;
+}
+
 .h1-second {
     margin: 15px;
     font-size: 38px;
