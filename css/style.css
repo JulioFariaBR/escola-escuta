@@ -153,9 +153,11 @@ body {
 }
 
 .prin__sectB {
+    position: relative;
+    top: -15vh;
     background: #abfbaba3;
     width: 80%;
-    height: 100vh;
+    height: 80vh;
     border-radius: 50px;
     z-index: -1;
     display: flex;
