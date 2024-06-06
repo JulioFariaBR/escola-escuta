@@ -152,6 +152,18 @@ body {
     padding: 10px;
 }
 
+.prin__sect--a2 {
+    font-family: "Oswald", sans-serif;
+    background: #ABFBAB;
+    border-radius: 30px;
+    padding: 23px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 38px;
+    font-weight: 300;
+    color: #6B434B;
+}
+
 @media (max-width: 430px) {
     .cab {
         height: 46vh;
