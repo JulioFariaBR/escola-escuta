@@ -204,7 +204,7 @@ body {
 }
 
 
-@media (max-width: 430px) {
+@media (max-width: 530px) {
     body {
         background-repeat: repeat;
     }
