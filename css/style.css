@@ -249,6 +249,8 @@ body {
     }
 }
 
-@media (max-height: 530px) { 
-
+@media (min-height: 910px) { 
+    .prin__sectB {
+        height: 125vh;
+    }
 }
