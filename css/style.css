@@ -227,7 +227,7 @@ body {
     }
     .prin__sectB {
         top: 5vh;
-        height: 125vh;
+        height: 96vh;
         flex-direction: column;
     }
     .prin__sect--h1 {
@@ -247,4 +247,8 @@ body {
     .rod__divA--imgb {
         width: 92%;
     }
+}
+
+@media (max-height: 530px) { 
+
 }
