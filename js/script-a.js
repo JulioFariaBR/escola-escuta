@@ -6,6 +6,7 @@ let dados = {
     email: '',
     tipo: '',
     msn: '',
+    data: ''
 };
 
 questoes = [`<h1 class="prin__section--h1">Você gostaria de se indentificar?</h1><fieldset class="prin__section--fieldset"><div class="custom-radio"><input id="radio-1" name="question" value="1" type="radio" onclick="querSeIndentificar(1)"><label for="radio-1" class="label">Sim</label></div><div class="custom-radio"><input id="radio-2" name="question" value="0" type="radio" onclick="querSeIndentificar(0)"><label for="radio-2" class="label">Não</label></div></fieldset><button onclick="escreverQuestao()" class="prin__section--button">Próximo.</button>`, `<h1 class="prin__section--h1">Suas informações:</h1><fieldset class="prin__section--fieldset"><label for="name" class="label">Nome:</label><input type="text" name="name" id="name" class="input__text" ></fieldset><fieldset class="prin__section--fieldset"><label for="mail" class="label">E-mail:</label>    <input type="email" name="mail" id="mail" class="input__text"></fieldset><button onclick="cadDados(1); escreverQuestao();" class="prin__section--button">Próximo.</button>`, `<h1 class="prin__section--h1">Sua mensagem se caracteriza como:</h1><fieldset class="prin__section--fieldset newdivinputtype">
@@ -54,6 +55,7 @@ function cadDados(perguntas) {
             require = true;
             dados.msn = document.querySelector('#textarea').value;
             proximaQuestao = 5;
+            dados.data = contruindoData();
             bancoDeDados(dados);
         } else if (document.querySelector('#textarea').value == '') {
             require = false;
@@ -71,4 +73,10 @@ function classificacaoDaMensagem(perg) {
     })
     require = true;
     proximaQuestao = 4;
+}
+
+function contruindoData() {
+    const timeElapsed = Date.now();
+    const today = new Date(timeElapsed);
+    return today.toLocaleDateString();
 }
