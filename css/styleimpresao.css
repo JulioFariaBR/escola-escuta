@@ -1,0 +1,72 @@
+.impressao {
+    width: 794px;
+    height: 1015px;
+    font-family: "Oswald", sans-serif;
+}
+
+.cab__impressao {
+    display: flex;
+    padding: 20px;
+    height: 13%;
+}
+
+.cab--div__impressao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 79%;
+}
+
+.img__impressao {
+    width: 84px;height: 147px;
+}
+
+.h1__impressao {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.h2__impressao {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.main__impressao {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.h1__main__impressao {
+    font-size: 31px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.sect__main__impressao {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 5px;
+
+}
+
+.div__main__impressao {
+    display: flex;
+}
+
+.p__main__impressao {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.footer__impressao {
+    height: 17%;
+    padding: 15px;
+}
