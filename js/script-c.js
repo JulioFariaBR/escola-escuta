@@ -5,22 +5,27 @@ const infos = [
     {
         log: 'ADM1JCSF',
         pin: 'ADMJulioF@1',
+        name: 'JULIO CESAR SIQUEIRA FARIA'
     },
     {
         log: 'ADM2LM',
         pin: 'ADMLuciaM@2',
+        name: 'LUCIA MALDONADO'
     },
     {
         log: 'ADM3LA',
         pin: 'ADMLeticiaA@3',
+        name: 'LETICIA ARAUJO'
     },
     {
         log: 'ADM4CRSA',
         pin: 'ADMCleodeteA@4',
+        name: 'CLEODETE RODRIGUES DA SILVA AVANCI'
     },
     {
         log: 'ADM5ACF',
         pin: 'ADMAnaF@5',
+        name: 'ANA CRISTINA FORMIGONI'
     },
 ]
 
