@@ -75,11 +75,26 @@ function openMsn(id) {
             </section>
         </main>
         <footer class="footer__impressao">
-            <p class="p__main__impressao">Este relatório foi gerado no dia 14/06/2024 ás 19:21, através do site: www.escolaescuta.eagleapp.com.br/pages/adm/html, com o login de JULIO CESAR SIQUEIRA FARIA.</p>
+            <p class="p__main__impressao">Este relatório foi gerado no dia ${construindoData()} ás 19:21, através do site: www.escolaescuta.eagleapp.com.br/pages/adm/html, com o login de ${nameuser}.</p>
         </footer>
     </div>`
 }
 
 function closeMsn() {
     document.querySelector('#canva-msn').className = 'main dnone';
+}
+
+function construindoData() {
+    const timeElapsed = Date.now();
+    const today = new Date(timeElapsed);
+    return today.toLocaleDateString();
+}
+
+function construindoHora() {
+    const data = new Date(); // momento atual 
+    const horas = data.getHours();
+    const minutos = data.getMinutes();
+
+    const hhmmm = [horas, minutos].join(':');
+    return hhmmm
 }
