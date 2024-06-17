@@ -5,13 +5,13 @@ const canvaimpress = document.getElementById('canva-impress');
 window.addEventListener("afterprint", (event) => {
     canvamain.className = "maine"
     canvamsn.className = "canva-impress"
-    canvaimpress.className = "display-block"
+    canvaimpress.className = "display-none"
 });
 
 window.addEventListener("beforeprint", (event) => {
     canvamain.className = "maine display-none"
     canvamsn.className = "canva-impress display-none"
-    canvaimpress.className = "display-none"
+    canvaimpress.className = "display-block"
 });
 
 
