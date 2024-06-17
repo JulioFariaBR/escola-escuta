@@ -75,7 +75,7 @@ function openMsn(id) {
             </section>
         </main>
         <footer class="footer__impressao">
-            <p class="p__main__impressao">Este relatório foi gerado no dia ${construindoData()} ás 19:21, através do site: www.escolaescuta.eagleapp.com.br/pages/adm/html, com o login de ${nameuser}.</p>
+            <p class="p__main__impressao">Este relatório foi gerado no dia ${construindoData()} ás ${construindoHora()}, através do site: www.escolaescuta.eagleapp.com.br/pages/adm/html, com o login de ${nameuser}.</p>
         </footer>
     </div>`
 }
