@@ -1,17 +1,24 @@
+const canvamain = document.getElementById('main');
+const canvamsn = document.getElementById('canva-msn');
+const canvaimpress = document.getElementById('canva-impress');
+
 window.addEventListener("afterprint", (event) => {
-    console.log("After print");
+    canvamain.className = "maine"
+    canvamsn.className = "canva-impress"
+    canvaimpress.className = "display-block"
 });
 
 window.addEventListener("beforeprint", (event) => {
-    console.log("Before print");
+    canvamain.className = "maine display-none"
+    canvamsn.className = "canva-impress display-none"
+    canvaimpress.className = "display-none"
 });
 
-const canvaimpress = document.getElementById('canva-impress');
 
 function imprimir() {
     canvaimpress.innerHTML = `${canvaimpress.innerHTML}<div class="impressao">
         <header class="cab__impressao">
-            <img src="../img/assets-10.png" alt="" class="img__impressao">
+            <img src="../img/assets-11.png" alt="" class="img__impressao">
             <div class="cab--div__impressao">
                 <h1 class="h1__impressao">Projeto Escola Escuta</h1>
                 <h2 class="h2__impressao">Colégio Estadual Vila Alta</h2>

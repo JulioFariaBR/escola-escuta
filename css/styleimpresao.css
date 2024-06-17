@@ -70,3 +70,11 @@
     height: 17%;
     padding: 15px;
 }
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: flex;
+}
