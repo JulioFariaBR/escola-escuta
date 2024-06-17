@@ -42,7 +42,7 @@ function openMsn(id) {
     let canvaimpress = document.getElementById('canva-impress');
     canvaimpress.innerHTML = `${canvaimpress.innerHTML}<div class="impressao">
         <header class="cab__impressao">
-            <img src="../img/assets-10.png" alt="" class="img__impressao">
+            <img src="../img/assets-11.png" alt="" class="img__impressao">
             <div class="cab--div__impressao">
                 <h1 class="h1__impressao">Projeto Escola Escuta</h1>
                 <h2 class="h2__impressao">Colégio Estadual Vila Alta</h2>
