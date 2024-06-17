@@ -66,7 +66,7 @@ function openMsn(id) {
                 </div>
                 <div class="div__main__impressao">
                     <p class="p__main__impressao">Data:</p>
-                    <p class="p__main__impressao">${dataBusca[i]}</p>
+                    <p class="p__main__impressao">${dataBusca[id]}</p>
                 </div>
             </section>
             <section class="sect__main__impressao2">
