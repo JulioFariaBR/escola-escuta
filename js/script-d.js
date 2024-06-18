@@ -11,15 +11,15 @@ function extraindodados(dados) {
         emailBusca.push(elemento.c[1].v)
         tipoBusca.push(elemento.c[2].v)
         msnBusca.push(elemento.c[3].v)
-        dataBusca.push(elemento.c[4].v)
+        dataBuscaS.push(elemento.c[4].v)
     })
     nomeBusca.shift();
     emailBusca.shift();
     tipoBusca.shift();
     msnBusca.shift();
-    dataBusca.shift();
-    console.log(nomeBusca, emailBusca, tipoBusca, msnBusca, dataBusca);
-    construtor();
+    dataBuscaS.shift();
+    console.log(nomeBusca, emailBusca, tipoBusca, msnBusca, dataBuscaS);
+    //construtor();
 }
 async function busca() {
     let url = `https://docs.google.com/spreadsheets/d/1_SjV9CPgsXzq5WlS0eZfSTEckFP9HcsE5l502hgegVo/gviz/tq?tqx=out:json`
