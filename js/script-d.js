@@ -36,29 +36,28 @@ async function busca() {
 }
 
 function stringToDate(dateStr) {
-    const [day, month, year] = dateStr.split('/').map(Number);
+    const [year, month, day] = dateStr.split('-').map(Number);
     return new Date(year, month - 1, day); // JavaScript months are 0-based
 }
 
 function selecioneAsDatas() {
     const startDate = document.getElementById("startDate").value;
     const endDate = document.getElementById("endDate").value;
-    console.log(startDate, endDate, );
 
     if (!startDate || !endDate) {
         console.log("As datas de início e fim devem ser fornecidas.");
         return;
     }
 
-    const start = stringToDate(startDate);
-    const end = stringToDate(endDate);
+    const start = inputDateToDate(startDate);
+    const end = inputDateToDate(endDate);
 
     if (start > end) {
         console.log("A data de início não pode ser maior que a data de fim.");
         return;
     }
 
-    let dataBusca = dataBuscaS.filter((dataStr, index) => {
+    const dataBusca = dataBuscaS.filter((dataStr, index) => {
         const data = stringToDate(dataStr);
         if (data >= start && data <= end) {
             console.log(`Data: ${dataStr}, Índice: ${index}`);
@@ -67,7 +66,7 @@ function selecioneAsDatas() {
         return false;
     });
 
-    console.log("Datas filtradas:", dataBusca);    
+    console.log("Datas filtradas:", dataBusca); 
 }
 
 function construtor() {
