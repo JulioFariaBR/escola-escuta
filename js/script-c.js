@@ -44,9 +44,8 @@ function realizarLogin() {
                         <label for="endDate">Data de Fim:</label>
                         <input type="date" id="endDate" name="endDate" required>
                         <br><br>
-                        <button type="submit">Filtrar Datas</button>
+                        <button onclick="busca()">Filtrar Datas</button>
                     </form></div><table><thead><tr class="titulos"><th scope="col">Nome</th><th scope="col">E-mail</th><th scope="col">Tipo</th><th scope="col">Mensagem</th><th scope="col"></th></tr></thead><tbody id="canva-table"></tbody></table>`
-                busca();
                 nameuser = e.name
             }
         }
