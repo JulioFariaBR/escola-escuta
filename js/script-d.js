@@ -75,7 +75,7 @@ function selecioneAsDatas() {
         return;
     }
 
-    const dataBusca = dataBuscaS.filter((dataStr, index) => {
+    const dataBuscaP = dataBuscaS.filter((dataStr, index) => {
         const data = stringToDate(dataStr);
         if (data >= start && data <= end) {
             console.log(`Data: ${dataStr}, Índice: ${index}`);
@@ -83,12 +83,13 @@ function selecioneAsDatas() {
             emailBusca.push(emailBuscaS[index])
             tipoBusca.push(tipoBuscaS[index])
             msnBusca.push(msnBuscaS[index])
+            dataBusca.push(dataBuscaS[index])
             return true;
         }
         return false;
     });
 
-    console.log("Datas filtradas:", dataBusca); 
+    console.log("Datas filtradas:", dataBuscaP); 
 }
 
 function construtor() {
