@@ -43,6 +43,7 @@ function stringToDate(dateStr) {
 function selecioneAsDatas() {
     const startDate = document.getElementById("startDate").value;
     const endDate = document.getElementById("endDate").value;
+    console.log(startDate, endDate, );
 
     if (!startDate || !endDate) {
         console.log("As datas de início e fim devem ser fornecidas.");
