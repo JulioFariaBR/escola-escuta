@@ -37,13 +37,13 @@ function realizarLogin() {
         if (condition == false) {
             if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
                 document.querySelector('#main').innerHTML = `<div id="filtro"><h1>Selecionar Intervalo de Datas</h1>
-                        <label for="startDate">Data de Início:</label>
-                        <input type="date" id="startDate" name="startDate" required>
+                        <label for="startDate" class="main__fieldset--label">Data de Início:</label>
+                        <input type="date" id="startDate" name="startDate" required class="main__fieldset--input">
                         <br><br>
-                        <label for="endDate">Data de Fim:</label>
-                        <input type="date" id="endDate" name="endDate" required>
+                        <label for="endDate" class="main__fieldset--label">Data de Fim:</label>
+                        <input type="date" id="endDate" name="endDate" required class="main__fieldset--input">
                         <br><br>
-                        <button onclick="busca()">Filtrar Datas</button>
+                        <button onclick="busca()" class="main__bnt">Filtrar Datas</button>
                     </div><table><thead><tr class="titulos"><th scope="col">Nome</th><th scope="col">E-mail</th><th scope="col">Tipo</th><th scope="col">Mensagem</th><th scope="col"></th></tr></thead><tbody id="canva-table"></tbody></table>`
                 nameuser = e.name
             }
