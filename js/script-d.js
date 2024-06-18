@@ -36,7 +36,7 @@ function extraindodados(dados) {
     console.log(nomeBuscaS, emailBuscaS, tipoBuscaS, msnBuscaS, dataBuscaS);
     selecioneAsDatas();
     console.log(nomeBusca, emailBusca, tipoBusca, msnBusca, dataBusca);
-    //construtor();
+    construtor();
 }
 async function busca() {
     let url = `https://docs.google.com/spreadsheets/d/1_SjV9CPgsXzq5WlS0eZfSTEckFP9HcsE5l502hgegVo/gviz/tq?tqx=out:json`
@@ -92,6 +92,7 @@ function selecioneAsDatas() {
 }
 
 function construtor() {
+    document.querySelector('#canva-table').innerHTML = ``;
     nomeBusca.forEach((e, i)=> {
         document.querySelector('#canva-table').innerHTML = `${document.querySelector('#canva-table').innerHTML} <tr><th scope="row">${e}</th><th>${emailBusca[i]}</th><th>${tipoBusca[i]}</th><th>${dataBusca[i]}</th><th onclick="openMsn(${i})" class="open">Abrir Mensagem</th></tr>`
     })
