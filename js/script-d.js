@@ -11,6 +11,11 @@ let dataBuscaS = [];
 let bandeiraBusca = [];
 
 function extraindodados(dados) {
+    nomeBusca = [];
+    emailBusca = [];
+    tipoBusca = [];
+    msnBusca = [];
+    dataBusca = [];
     dados.forEach((elemento, _index) => {
         nomeBuscaS.push(elemento.c[0].v)
         emailBuscaS.push(elemento.c[1].v)
@@ -25,7 +30,7 @@ function extraindodados(dados) {
     dataBuscaS.shift();
     console.log(nomeBuscaS, emailBuscaS, tipoBuscaS, msnBuscaS, dataBuscaS);
     selecioneAsDatas();
-    console.log(nomeBusca, emailBusca, tipoBusca, msnBusca);
+    console.log(nomeBusca, emailBusca, tipoBusca, msnBusca, dataBusca);
     //construtor();
 }
 async function busca() {
