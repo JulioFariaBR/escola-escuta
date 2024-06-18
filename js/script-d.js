@@ -2,7 +2,7 @@ let nomeBusca = [];
 let emailBusca = [];
 let tipoBusca = [];
 let msnBusca = [];
-let dataBusca = [];
+let dataBuscaS = [];
 let bandeiraBusca = [];
 
 function extraindodados(dados) {
@@ -28,6 +28,40 @@ async function busca() {
         .then(res => res.text())
         .then(text => JSON.parse(text.substr(47).slice(0, -2)))
     extraindodados(data.table.rows);
+}
+
+function stringToDate(dateStr) {
+    const [day, month, year] = dateStr.split('/').map(Number);
+    return new Date(year, month - 1, day); // JavaScript months are 0-based
+}
+
+function selecioneAsDatas() {
+    const startDate = document.getElementById("startDate").value;
+    const endDate = document.getElementById("endDate").value;
+
+    if (!startDate || !endDate) {
+        console.log("As datas de início e fim devem ser fornecidas.");
+        return;
+    }
+
+    const start = stringToDate(startDate);
+    const end = stringToDate(endDate);
+
+    if (start > end) {
+        console.log("A data de início não pode ser maior que a data de fim.");
+        return;
+    }
+
+    let dataBusca = dataBuscaS.filter((dataStr, index) => {
+        const data = stringToDate(dataStr);
+        if (data >= start && data <= end) {
+            console.log(`Data: ${dataStr}, Índice: ${index}`);
+            return true;
+        }
+        return false;
+    });
+
+    console.log("Datas filtradas:", dataBusca);    
 }
 
 function construtor() {
