@@ -11,6 +11,11 @@ let dataBuscaS = [];
 let bandeiraBusca = [];
 
 function extraindodados(dados) {
+    nomeBuscaS = [];
+    emailBuscaS = [];
+    tipoBuscaS = [];
+    msnBuscaS = [];
+    dataBuscaS = [];
     nomeBusca = [];
     emailBusca = [];
     tipoBusca = [];
