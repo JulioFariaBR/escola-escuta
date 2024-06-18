@@ -2,23 +2,28 @@ let nomeBusca = [];
 let emailBusca = [];
 let tipoBusca = [];
 let msnBusca = [];
+let dataBusca = [];
+let nomeBuscaS = [];
+let emailBuscaS = [];
+let tipoBuscaS = [];
+let msnBuscaS = [];
 let dataBuscaS = [];
 let bandeiraBusca = [];
 
 function extraindodados(dados) {
     dados.forEach((elemento, _index) => {
-        nomeBusca.push(elemento.c[0].v)
-        emailBusca.push(elemento.c[1].v)
-        tipoBusca.push(elemento.c[2].v)
-        msnBusca.push(elemento.c[3].v)
+        nomeBuscaS.push(elemento.c[0].v)
+        emailBuscaS.push(elemento.c[1].v)
+        tipoBuscaS.push(elemento.c[2].v)
+        msnBuscaS.push(elemento.c[3].v)
         dataBuscaS.push(elemento.c[4].v)
     })
-    nomeBusca.shift();
-    emailBusca.shift();
-    tipoBusca.shift();
-    msnBusca.shift();
+    nomeBuscaS.shift();
+    emailBuscaS.shift();
+    tipoBuscaS.shift();
+    msnBuscaS.shift();
     dataBuscaS.shift();
-    console.log(nomeBusca, emailBusca, tipoBusca, msnBusca, dataBuscaS);
+    console.log(nomeBuscaS, emailBuscaS, tipoBuscaS, msnBuscaS, dataBuscaS);
     //construtor();
 }
 async function busca() {
