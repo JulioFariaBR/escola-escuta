@@ -43,7 +43,7 @@ function realizarLogin() {
                         <label for="endDate" class="main__fieldset--label">Data de Fim:</label>
                         <input type="date" id="endDate" name="endDate" required class="main__fieldset--input">
                         <br><br>
-                        <button onclick="busca()" class="main__bnt">Filtrar Datas</button><button class="main__bnt" onclick="impvariasmsn()">Imprimir esta Mensagem</button>
+                        <button onclick="busca()" class="main__bnt">Filtrar Datas</button><button class="main__bnt" onclick="impvariasmsn()">Imprimir todas as Mensagens</button>
                     </div><table><thead><tr class="titulos"><th scope="col">Nome</th><th scope="col">E-mail</th><th scope="col">Tipo</th><th scope="col">Mensagem</th><th scope="col"></th></tr></thead><tbody id="canva-table"></tbody></table>`
                 nameuser = e.name
             }
