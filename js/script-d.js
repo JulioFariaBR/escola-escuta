@@ -101,7 +101,7 @@ function construtor() {
 
 function openMsn(id) {
     document.querySelector('#canva-msn').className = 'main dmsn';
-    document.querySelector('#canva-msn').innerHTML = `<button class="main__bnt" onclick="closeMsn()">X</button><h1>Detalhes da mensagem:</h1><table><thead><tr class="titulos"><th scope="col">Nome: ${nomeBusca[id]}</th><th scope="col">E-mail: ${emailBusca[id]}</th><th scope="col">Tipo: ${tipoBusca[id]}</th></tr></thead><tbody><tr><th scope="row" colspan="3">${msnBusca[id]}</th></tr></tbody></table>`
+    document.querySelector('#canva-msn').innerHTML = `<button class="main__bnt" onclick="closeMsn()">X</button><h1>Detalhes da mensagem:</h1><table><thead><tr class="titulos"><th scope="col">Nome: ${nomeBusca[id]}</th><th scope="col">E-mail: ${emailBusca[id]}</th><th scope="col">Tipo: ${tipoBusca[id]}</th><th scope="col">Data: ${dataBusca[id]}</th></tr></thead><tbody><tr><th scope="row" colspan="4">${msnBusca[id]}</th></tr></tbody></table>`
     let canvaimpress = document.getElementById('canva-impress');
     canvaimpress.innerHTML = `<div class="impressao">
         <header class="cab__impressao">
