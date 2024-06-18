@@ -56,4 +56,5 @@ function impvariasmsn() {
         </footer>
     </div>`
     })
+    window.print();
 }
