@@ -24,6 +24,8 @@ function extraindodados(dados) {
     msnBuscaS.shift();
     dataBuscaS.shift();
     console.log(nomeBuscaS, emailBuscaS, tipoBuscaS, msnBuscaS, dataBuscaS);
+    selecioneAsDatas();
+    console.log(nomeBusca, emailBusca, tipoBusca, msnBusca);
     //construtor();
 }
 async function busca() {
@@ -67,6 +69,10 @@ function selecioneAsDatas() {
         const data = stringToDate(dataStr);
         if (data >= start && data <= end) {
             console.log(`Data: ${dataStr}, Índice: ${index}`);
+            nomeBusca.push(nomeBuscaS[index])
+            emailBusca.push(emailBuscaS[index])
+            tipoBusca.push(tipoBuscaS[index])
+            msnBusca.push(msnBuscaS[index])
             return true;
         }
         return false;
