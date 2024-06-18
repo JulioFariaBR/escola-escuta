@@ -36,6 +36,12 @@ async function busca() {
 }
 
 function stringToDate(dateStr) {
+    const [day, month, year] = dateStr.split('/').map(Number);
+    return new Date(year, month - 1, day); // JavaScript months are 0-based
+}
+
+// Função para converter uma string no formato aaaa-mm-dd para um objeto Date
+function inputDateToDate(dateStr) {
     const [year, month, day] = dateStr.split('-').map(Number);
     return new Date(year, month - 1, day); // JavaScript months are 0-based
 }
