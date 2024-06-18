@@ -57,4 +57,5 @@ function impvariasmsn() {
     </div>`
     })
     window.print();
+    canvamsn.className = "main dnone"
 }
