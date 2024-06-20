@@ -32,6 +32,7 @@ const infos = [
 let nameuser
 
 function realizarLogin() {
+    let conditionforlogin = false
     condition = false
     infos.forEach((e) => {
         if (condition == false) {
@@ -46,7 +47,11 @@ function realizarLogin() {
                         <button onclick="busca()" class="main__bnt">Filtrar Datas</button><button class="main__bnt" onclick="impvariasmsn()">Imprimir todas as Mensagens</button>
                     </div><table><thead><tr class="titulos"><th scope="col">Nome</th><th scope="col">E-mail</th><th scope="col">Tipo</th><th scope="col">Mensagem</th><th scope="col"></th></tr></thead><tbody id="canva-table"></tbody></table>`
                 nameuser = e.name
+                conditionforlogin = true
             }
         }
     })
+    if (conditionforlogin == false) {
+        alert("LOGIN ou SENHA estão incorretos.")
+    }
 }
