@@ -35,6 +35,7 @@ function realizarLogin() {
     let conditionforlogin = false
     condition = false
     infos.forEach((e) => {
+        console.log(conditionforlogin);
         if (condition == false) {
             if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
                 document.querySelector('#main').innerHTML = `<div id="filtro"><h1>Selecionar Intervalo de Datas</h1>
@@ -48,6 +49,7 @@ function realizarLogin() {
                     </div><table><thead><tr class="titulos"><th scope="col">Nome</th><th scope="col">E-mail</th><th scope="col">Tipo</th><th scope="col">Mensagem</th><th scope="col"></th></tr></thead><tbody id="canva-table"></tbody></table>`
                 nameuser = e.name
                 conditionforlogin = true
+            
             }
         }
     })
