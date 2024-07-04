@@ -37,7 +37,7 @@ function realizarLogin() {
     infos.forEach((e) => {
         console.log(conditionforlogin);
         if (condition == false) {
-            if (e.log == document.querySelector('#login').value && e.pin == document.querySelector('#pass').value) {
+            if (e.log == (document.querySelector('#login').value) && (e.pin == document.querySelector('#pass').value)) {
                 document.querySelector('#main').innerHTML = `<div id="filtro"><h1>Selecionar Intervalo de Datas</h1>
                         <label for="startDate" class="main__fieldset--label">Data de Início:</label>
                         <input type="date" id="startDate" name="startDate" required class="main__fieldset--input">
