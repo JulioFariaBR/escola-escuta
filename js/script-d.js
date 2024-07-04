@@ -44,7 +44,8 @@ async function busca() {
     let data = await fetch(url)
         .then(res => res.text())
         .then(text => JSON.parse(text.substr(47).slice(0, -2)))
-    extraindodados(data.table.rows);
+    console.log(data);
+    //extraindodados(data.table.rows);
 }
 
 function stringToDate(dateStr) {
