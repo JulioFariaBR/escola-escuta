@@ -1,11 +1,13 @@
 const canvamain = document.getElementById('main');
 const canvamsn = document.getElementById('canva-msn');
 const canvaimpress = document.getElementById('canva-impress');
+const body = document.querySelector('body')
 
 window.addEventListener("afterprint", (event) => {
     canvamain.className = "maine"
     canvamsn.className = "main dmsn"
     canvaimpress.className = "display-none"
+    body.className = 'bodyimpressblock';
     canvaimpress.innerHTML = ``;
 });
 
@@ -13,6 +15,7 @@ window.addEventListener("beforeprint", (event) => {
     canvamain.className = "maine display-none"
     canvamsn.className = "main dnone"
     canvaimpress.className = "display-block"
+    body.className = 'bodyimpressnone';
 });
 
 function impvariasmsn() {

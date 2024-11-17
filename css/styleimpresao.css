@@ -1,3 +1,11 @@
+.bodyimpressblock {
+    background-image: url(../img/assets-1.png);
+}
+
+.bodyimpressnone {
+    background-image: none;
+}
+
 .impressao {
     width: 794px;
     min-height: 1015px;
@@ -37,6 +45,7 @@
 
 .main__impressao {
     height: 80%;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
