@@ -1,6 +1,6 @@
 .impressao {
     width: 794px;
-    height: 1015px;
+    min-height: 1015px;
     font-family: "Oswald", sans-serif;
 }
 
