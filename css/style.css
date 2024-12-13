@@ -3,6 +3,10 @@
     font-family: "Oswald", sans-serif;
 */
 
+.none_body {
+    display: none;
+}
+
 body {
     background-image: url(../img/assets-1.png);
     background-repeat: no-repeat;
@@ -70,13 +74,13 @@ body {
     top: -15vh;
     background: #abfbaba3;
     width: 80%;
-    height: 80vh;
+    height: 102vh;
     border-radius: 50px;
     z-index: -1;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 .prin__sect--h1 {
@@ -255,4 +259,26 @@ body {
     .prin__sectB {
         height: 125vh;
     }
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    color: #6B434B;
+    font-family: "Roboto Flex", sans-serif;
+    margin: 20px 30px;
+}
+
+.logodoacabou {
+    margin: 50px;
+}
+
+h1 {
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+    margin: 40px;
+    font-size: 54px;
+    font-weight: 700;
+    color: #6B434B;
 }
