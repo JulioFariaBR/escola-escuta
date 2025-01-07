@@ -3,6 +3,8 @@
 
 ---
 
+### Status do Projeto: Inativo ou Pausado;
+
  - Disponível em: [www.escolaescuta.eagleapp.com.br](http://www.escolaescuta.eagleapp.com.br)
 
  - Licensa de Software Proprietário
