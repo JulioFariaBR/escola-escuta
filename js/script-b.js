@@ -11,12 +11,11 @@ function tratarDados() {
 function bancoDeDados(dados) {
     tratarDados()
     console.log(JSON.stringify(dados));
-    fetch('https://api.sheetmonkey.io/form/dpBmKDGqGB4AMBGQ8MHGep', {
-        method: 'post',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(dados)
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: JSON.stringify(dados)
     })
+      .then(() => navigate("/thank-you/"))
+      .catch(error => alert(error));
 }
