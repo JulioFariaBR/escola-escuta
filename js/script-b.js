@@ -16,6 +16,6 @@ function bancoDeDados(dados) {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: JSON.stringify(dados)
     })
-      .then(() => navigate("/"))
+      .then(() => navigate("/"));
       .catch(error => alert(error));
 }
