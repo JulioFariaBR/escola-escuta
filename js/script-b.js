@@ -10,7 +10,7 @@ function tratarDados() {
 
 function bancoDeDados(dados) {
     tratarDados()
-    fetch("https://backend-sql.onrender.com/inserir", {
+    fetch("https://sclserver.onrender.com#", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(dados),
