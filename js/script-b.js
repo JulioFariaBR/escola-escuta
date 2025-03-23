@@ -10,12 +10,12 @@ function tratarDados() {
 
 function bancoDeDados(dados) {
     tratarDados()
-    console.log(JSON.stringify(dados));
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: JSON.stringify(dados)
-    })
-      .then(() => navigate("/"))
-      .catch(error => alert(error));
+    fetch("https://backend-sql.onrender.com/inserir", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(dados),
+      })
+        .then((response) => response.json())
+        .then((data) => console.log("Sucesso:", data))
+        .catch((error) => console.error("Erro:", error));
 }
