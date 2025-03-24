@@ -196,11 +196,13 @@ body {
         background-repeat: repeat;
     }
     .cab {
-        height: 53vh;
+        height: 43vh;
         justify-content: flex-start;
         flex-direction: column;
         align-items: center;
         background-image: url(../img/assets-8.png);
+        position: absolute;
+        margin-top: 0;
     }
     .cab__sectB {
         margin-top: 3vh;
@@ -208,24 +210,38 @@ body {
     .cab__sectA {
         margin-top: 3vh;
     }
+    .prin {
+        margin-top: 0;
+        padding-top: 189px;
+
+    }
+    .cab__sectB--inside {
+        margin-right: 0;
+    } 
     .prin__sect {
         top: 5vh;
         height: 70vh;
     }
     .prin__sectB {
         top: 5vh;
-        height: 96vh;
+        height: 75vh;
         flex-direction: column;
     }
     .prin__sect--h1 {
         font-size: 38px;
+        margin: 0 8px;
     }
     .prin__sect--a {
         top: -10vh;
         font-size: 30px;
+        width: 47%;
+
+    }
+    .excluda2 {
+        top: 2vh;
     }
     .rod {
-        height: 150vh;
+        margin-top: 60px;
         flex-direction: column;
     }
     .rod__sect {
@@ -233,5 +249,8 @@ body {
     }
     .rod__divA--imgb {
         width: 92%;
+    }
+    .prin__sect--div {
+        width: 90%;
     }
 }

@@ -135,34 +135,6 @@ body {
     background: #abfbab;
 }
 
-@media (max-width: 430px) {
-    .prin__bnt {
-        display: none;
-    }
-    .prin__img {
-        display: none;
-    }
-    .prin__section {
-        width: 90%;
-        margin: 5vh 5%;
-        height: 90vh;
-        background: url(../img/assets-9.png);
-        border-radius: 50px;
-    }
-    .prin__section--fieldset {
-        flex-direction: column;
-    }
-
-    .input__text {
-        font-size: 35px;
-        width: 100%;
-    }
-
-    .custom-radio {
-        padding: 20px;
-    }
-}
-
 .sectionform {
     width: 70%;
 }
@@ -205,3 +177,45 @@ body {
     color: #6B434B;
     margin: 22px 10px;
 }
+
+@media (max-width: 430px) {
+    body {
+        background-position: right;
+    }
+    .prin__bnt {
+        display: none;
+    }
+    .prin__img {
+        display: none;
+    }
+    .prin__section {
+        margin: 5vh 5%;
+        height: 90vh;
+        background: url(../img/assets-9.png);
+        border-radius: 50px;
+    }
+    .prin__section--fieldset {
+        flex-direction: column;
+    }
+
+    .input__text {
+        font-size: 35px;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .custom-radio {
+        padding: 20px;
+    }
+    .sectionform {
+        width: 90%;
+    }
+    .sectionform01 {
+        height: 20vh;
+    }
+    .prin__section--fieldset {
+        display: flex;
+        width: 100%;
+    }
+}
+
