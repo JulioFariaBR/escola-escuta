@@ -9,8 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" type="imagex/png" href="../img/assets-10.png">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1DMDH4ERT"></script>
@@ -22,12 +21,18 @@
     </script>
 </head>
 <body>
+    <button onclick="voltarParaHome()" class="prin__bnt"> &LeftArrow; Voltar</button>
     <main class="prin">
-        <button onclick="voltarParaHome()" class="prin__bnt"> &LeftArrow; Home</button>
-        <section class="prin__section" id="canva">
-            <h1 class="prin__section--h1">Você gostaria de se indentificar?</h1><fieldset class="prin__section--fieldset"><div class="custom-radio"><input id="radio-1" name="question" value="1" type="radio" onclick="querSeIndentificar(1)"><label for="radio-1" class="label">Sim</label></div><div class="custom-radio"><input id="radio-2" name="question" value="0" type="radio" onclick="querSeIndentificar(0)"><label for="radio-2" class="label">Não</label></div></fieldset><button onclick="escreverQuestao()" class="prin__section--button">Próximo.</button>
+        <section class="sectionform">
+            <section class="sectionform01">
+                <h1 class="sectionform01-h1">Escola Escuta do Colégio Estadual Vila Alta</h1>
+                <h2 class="sectionform01-h2">Preencha os seguintes campos:</h2>
+            </section>
+            <section class="prin__section" id="canva">
+                <h1 class="prin__section--h1">Você gostaria de se indentificar?</h1><fieldset class="prin__section--fieldset"><div class="custom-radio"><input id="radio-1" name="question" value="1" type="radio" onclick="querSeIndentificar(1)"><label for="radio-1" class="label">Sim</label></div><div class="custom-radio"><input id="radio-2" name="question" value="0" type="radio" onclick="querSeIndentificar(0)"><label for="radio-2" class="label">Não</label></div></fieldset><button onclick="escreverQuestao()" class="prin__section--button">Próximo.</button>
+            </section>
         </section>
-        <img src="../img/assets-6.png" alt="Logo: CEVA" class="prin__img">
+        
     </main>
     <script src="../js/script-a.js"></script>
     <script src="../js/script-b.js"></script>

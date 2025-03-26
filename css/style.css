@@ -1,6 +1,6 @@
 /* 
     font-family: "Roboto Flex", sans-serif;  
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 */
 
 body {
@@ -19,6 +19,9 @@ body {
     display: flex;
     justify-content: space-around;
     background-size: cover;
+    position: fixed;
+    margin-top: -207px;
+    z-index: 5;
 }
 
 .cab__sectA {
@@ -44,7 +47,7 @@ body {
 }
 
 .cab__sectB--h1 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 60px;
     font-weight: 500;
     text-align: center;
@@ -52,7 +55,7 @@ body {
 }
 
 .cab__sectB--h2 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 27px;
     font-weight: 300;
     text-align: center;
@@ -63,6 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 207px;
 }
 
 .prin__sect {
@@ -80,10 +84,10 @@ body {
 }
 
 .prin__sect--h1 {
-    font-family: "Roboto Flex", sans-serif; 
+    font-family: "Roboto Flex", sans-serif;
     text-align: center;
-    margin: 20px;
-    font-size: 54px;
+    margin: 20px 150px;
+    font-size: 68px;
     font-weight: 600;
     color: #6B434B;
     margin-top: -35px;
@@ -92,65 +96,43 @@ body {
 .prin__sect--a {
     position: relative;
     top: -36vh;
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     background: #ABFBAB;
     border-radius: 30px;
     padding: 23px;
     text-align: center;
     text-decoration: none;
-    font-size: 38px;
-    font-weight: 300;
+    font-size: 35px;
+    font-weight: 400;
     color: #6B434B;
     z-index: 2;
+    transition: all 10ms;
 }
 
 .prin__sect--a:hover {
-    text-decoration: underline;
+    font-style: italic;
+}
+
+.excluda2 {
+    top: 0;
 }
 
 .rod {
-    height: 80vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-
-.rod__sect {
-    background: #7D515A;
-    border-radius: 20px;
-    height: 60vh;
-    width: 30%;
-}
-
-.rod__divA {
-    background: #6B434B;
-    height: 75%;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.rod__divA--imga {
-    height: 90%;
-}
-
-.rod__divA--imgb {
-    height: 90%;
-}
-
-.rod__divB {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #abfbaba3;
+    border: none;
+    border-radius: 22px 22px 0 0;
 }
 
 .rod__divB--p {
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 34px;
     text-align: center;
-    color: #ffffff;
-    font-weight: 200;
+    color: #6B434B;
+    font-weight: 400;
     padding: 10px;
 }
 
@@ -159,16 +141,16 @@ body {
     top: -15vh;
     background: #abfbaba3;
     width: 80%;
-    height: 80vh;
     border-radius: 50px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 45px 0px;
 }
 
 .prin__sect--a2 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     background: #ABFBAB;
     border-radius: 30px;
     padding: 23px;
@@ -185,16 +167,16 @@ body {
 
 .h1-second {
     margin: 15px;
-    font-size: 38px;
+    font-size: 42px;
     margin-top: 0px;
 }
 
 .prin__sect--ul {
     padding-left: 30px;
     color: #6B434B;
-    padding-top: 10px;
-    font-size: 20px;
-    font-family: "Roboto Flex", sans-serif;
+    padding-top: 7px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
 }
 
 .prin__sect--div {
@@ -205,17 +187,22 @@ body {
     padding: 2px;
 }
 
+.cab__sectB--inside {
+    margin-right: 147px;
+}
 
 @media (max-width: 530px) {
     body {
         background-repeat: repeat;
     }
     .cab {
-        height: 53vh;
+        height: 43vh;
         justify-content: flex-start;
         flex-direction: column;
         align-items: center;
         background-image: url(../img/assets-8.png);
+        position: absolute;
+        margin-top: 0;
     }
     .cab__sectB {
         margin-top: 3vh;
@@ -223,24 +210,38 @@ body {
     .cab__sectA {
         margin-top: 3vh;
     }
+    .prin {
+        margin-top: 0;
+        padding-top: 189px;
+
+    }
+    .cab__sectB--inside {
+        margin-right: 0;
+    } 
     .prin__sect {
         top: 5vh;
         height: 70vh;
     }
     .prin__sectB {
         top: 5vh;
-        height: 96vh;
+        height: 75vh;
         flex-direction: column;
     }
     .prin__sect--h1 {
         font-size: 38px;
+        margin: 0 8px;
     }
     .prin__sect--a {
         top: -10vh;
         font-size: 30px;
+        width: 47%;
+
+    }
+    .excluda2 {
+        top: 2vh;
     }
     .rod {
-        height: 150vh;
+        margin-top: 60px;
         flex-direction: column;
     }
     .rod__sect {
@@ -249,10 +250,7 @@ body {
     .rod__divA--imgb {
         width: 92%;
     }
-}
-
-@media (max-height: 910px) { 
-    .prin__sectB {
-        height: 125vh;
+    .prin__sect--div {
+        width: 90%;
     }
 }
