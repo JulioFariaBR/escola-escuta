@@ -11,6 +11,8 @@ let dataBuscaS = [];
 let bandeiraBusca = [];
 
 function extraindodados(dados) {
+    console.log(dados);
+    
     nomeBuscaS = [];
     emailBuscaS = [];
     tipoBuscaS = [];
@@ -39,7 +41,7 @@ function extraindodados(dados) {
     construtor();
 }
 async function busca() {
-    let url = `https://docs.google.com/spreadsheets/d/1_SjV9CPgsXzq5WlS0eZfSTEckFP9HcsE5l502hgegVo/gviz/tq?tqx=out:json`
+    let url = `https://docs.google.com/spreadsheets/d/1Mnb1tMcby9WgIBJcX0eGN7p7_maNZb_yNTFqTkL6Qrg/gviz/tq?tqx=out:json`
 
     let data = await fetch(url)
         .then(res => res.text())
@@ -101,7 +103,12 @@ function construtor() {
 
 function openMsn(id) {
     document.querySelector('#canva-msn').className = 'main dmsn';
-    document.querySelector('#canva-msn').innerHTML = `<button class="main__bnt" onclick="closeMsn()">X</button><button class="main__bnt" onclick="window.print()">Imprimir esta Mensagem</button><h1>Detalhes da mensagem:</h1><table><thead><tr class="titulos"><th scope="col">Nome: ${nomeBusca[id]}</th><th scope="col">E-mail: ${emailBusca[id]}</th><th scope="col">Tipo: ${tipoBusca[id]}</th><th scope="col">Data: ${dataBusca[id]}</th></tr></thead><tbody><tr><th scope="row" colspan="4">${msnBusca[id]}</th></tr></tbody></table>`
+    document.querySelector('#canva-msn').innerHTML = `<section class="detals_mens-sect1">
+    <button class="main__bnt" onclick="closeMsn()">X</button><button class="main__bnt" onclick="window.print()">Imprimir esta Mensagem</button>
+</section>
+<section class="detals_mens-sect2">
+    <h1>Detalhes da mensagem:</h1><table><thead><tr class="titulos"><th scope="col">Nome: ${nomeBusca[id]}</th><th scope="col">E-mail: ${emailBusca[id]}</th><th scope="col">Tipo: ${tipoBusca[id]}</th><th scope="col">Data: ${dataBusca[id]}</th></tr></thead><tbody><tr><th scope="row" colspan="4">${msnBusca[id]}</th></tr></tbody></table>
+</section>`
     let canvaimpress = document.getElementById('canva-impress');
     canvaimpress.innerHTML = `<div class="impressao">
         <header class="cab__impressao">

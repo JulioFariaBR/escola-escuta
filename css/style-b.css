@@ -1,15 +1,18 @@
 body {
-    background: url(../img/assets-1.png);
+    background: url(../img/assets-13.png);
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
+    background-size: cover;
     font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
 }
 
-.main {
+.maine {
     background: url(../img/assets-7.png);
-    background-position: center;
     width: 80%;
     min-height: 80vh;
     display: flex;
@@ -56,6 +59,7 @@ table {
     font-size: 15px;
     color: #6B434B;
     max-width: 92%;
+    margin: 20px;
 }
 
 th, td {
@@ -79,10 +83,30 @@ th, td {
 
 .dmsn {
     position: fixed;
-    top: 10vh;
-    left: 10%;
     z-index: 1;
+    width: 80%;
+    height: 80vh;
     background: #abfbab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+
+}
+
+.detals_mens-sect1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detals_mens-sect2 {
+    width: 80%;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .dnone {
@@ -101,16 +125,3 @@ h1 {
     color: #6B434B;
 }
 
-.maine {
-    background: url(../img/assets-7.png);
-    background-position: center;
-    width: 80%;
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 10vh 10%;
-    padding: 20px 0px;
-    border-radius: 50px;
-}
