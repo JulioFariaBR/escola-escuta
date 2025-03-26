@@ -135,6 +135,23 @@ body {
     background: #abfbab;
 }
 
+.prin__bntb {
+    font-family: "Roboto Condensed", sans-serif;
+    background: transparent;
+    padding: 12px;
+    font-size: 25px;
+    border: 8px solid #abfbab;
+    border-radius: 12px;
+    color: #6b434b;
+    font-weight: 600;
+    margin: 5px;
+    background: #abfbaba3;
+}
+
+.prin__bntb:hover {
+    background: #abfbab;
+}
+
 .sectionform {
     width: 70%;
 }
