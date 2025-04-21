@@ -39,7 +39,7 @@ function extraindodados(dados) {
     construtor();
 }
 async function busca() {
-    let url = `https://docs.google.com/spreadsheets/d/1_SjV9CPgsXzq5WlS0eZfSTEckFP9HcsE5l502hgegVo/gviz/tq?tqx=out:json`
+    let url = `https://docs.google.com/spreadsheets/d/1Mnb1tMcby9WgIBJcX0eGN7p7_maNZb_yNTFqTkL6Qrg/gviz/tq?tqx=out:json`
 
     let data = await fetch(url)
         .then(res => res.text())
