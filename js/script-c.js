@@ -1,32 +1,9 @@
 let condition
 
-function gerarMapaComChave(chave) {
-    const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 .,!?';
-    const chaveHash = Array.from(chave).reduce((a, c) => a + c.charCodeAt(0), 0);
-    const aleatorio = [...alfabeto].sort((a, b) => (a.charCodeAt(0) + chaveHash) % 89 - (b.charCodeAt(0) + chaveHash) % 89);
-    const mapa = {};
-    const inverso = {};
-    for (let i = 0; i < alfabeto.length; i++) {
-      mapa[alfabeto[i]] = aleatorio[i];
-      inverso[aleatorio[i]] = alfabeto[i];
-    }
-    return { mapa, inverso };
-  }
-  
-  function criptografar(texto, chave) {
-    const { mapa } = gerarMapaComChave(chave);
-    return Array.from(texto).map(c => mapa[c] || c).join('');
-  }
-  
-  function descriptografar(texto, chave) {
-    const { inverso } = gerarMapaComChave(chave);
-    return Array.from(texto).map(c => inverso[c] || c).join('');
-}
-
 const infos = [
     {
         log: 'ADM1JCSF',
-        pin: criptografar('ADMJulioF@1'),
+        pin: 'ADMJulioF@1',
         name: 'JULIO CESAR SIQUEIRA FARIA'
     },
     {
