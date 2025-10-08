@@ -107,6 +107,7 @@ body {
     color: #6B434B;
     z-index: 2;
     transition: all 10ms;
+    box-shadow: 5px 5px 5px #3FAC8B;
 }
 
 .prin__sect--a:hover {
